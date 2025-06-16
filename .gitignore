@@ -4,3 +4,5 @@ build.zip
 .env
 backups/
 .babelrc
+deploy.js
+deploy.sh
