@@ -79,15 +79,15 @@ export default [
   },
   {
     path: '/ko/docs',
-    component: ComponentCreator('/ko/docs', 'e71'),
+    component: ComponentCreator('/ko/docs', '29f'),
     routes: [
       {
         path: '/ko/docs',
-        component: ComponentCreator('/ko/docs', 'eec'),
+        component: ComponentCreator('/ko/docs', 'bf7'),
         routes: [
           {
             path: '/ko/docs',
-            component: ComponentCreator('/ko/docs', '7f3'),
+            component: ComponentCreator('/ko/docs', '9f0'),
             routes: [
               {
                 path: '/ko/docs/gettingstarted/installation_guide',
@@ -160,6 +160,11 @@ export default [
                 component: ComponentCreator('/ko/docs/tenstorrent-sdks/tt-forge/tt-torch-installation', '9ef'),
                 exact: true,
                 sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/ko/docs/tenstorrent-sdks/tt-metal/',
+                component: ComponentCreator('/ko/docs/tenstorrent-sdks/tt-metal/', '73a'),
+                exact: true
               },
               {
                 path: '/ko/docs/tenstorrent-sdks/tt-metal/run-your-first-model',

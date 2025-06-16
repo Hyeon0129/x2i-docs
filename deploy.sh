@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+npm run build
 node deploy.js
 
 sleep 5

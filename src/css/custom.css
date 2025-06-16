@@ -123,10 +123,6 @@ body {
 
 
 
-/* 최상위 대제목 드롭다운 버튼 안보이게 */
-.theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible > .menu__link.menu__link--sublist-caret::after {
-  display: none !important;
-}
 
 
 /* 여기까지 */
@@ -153,12 +149,6 @@ body {
   margin-left: 0 !important;         /* margin-left 없애고, 대신 padding-left로 들여쓰기 */
 }
 
-/* Second menu */
-.menu__list-item .menu__list .menu__list-item-collapsible>.menu__link {
-  font-weight: 500;
-  font-size: 0.rem;
-}
-/* end */
 
 
 

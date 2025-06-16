@@ -206,17 +206,17 @@
     },
     "content": "393be207"
   },
-  "/ko/docs-e71": {
+  "/ko/docs-29f": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/ko/docs-eec": {
+  "/ko/docs-bf7": {
     "__comp": "a7bd4aaa",
     "__props": "3fb08f48"
   },
-  "/ko/docs-7f3": {
+  "/ko/docs-9f0": {
     "__comp": "a94703ab"
   },
   "/ko/docs/gettingstarted/installation_guide-7a4": {
@@ -266,6 +266,10 @@
   "/ko/docs/tenstorrent-sdks/tt-forge/tt-torch-installation-9ef": {
     "__comp": "17896441",
     "content": "17190541"
+  },
+  "/ko/docs/tenstorrent-sdks/tt-metal/-73a": {
+    "__comp": "17896441",
+    "content": "f219e2e8"
   },
   "/ko/docs/tenstorrent-sdks/tt-metal/run-your-first-model-e5e": {
     "__comp": "17896441",

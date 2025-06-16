@@ -84,6 +84,10 @@ const config = {
   ],
 
   themeConfig: ({
+
+    
+
+
     prism: {
       theme: require('prism-react-renderer').themes.github,
       darkTheme: customPrism,

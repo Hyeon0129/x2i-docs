@@ -76,6 +76,10 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tenstorrent-sdks/tt-metal/tt-metal",
+              "path": "/ko/docs/tenstorrent-sdks/tt-metal/"
+            },
+            {
               "id": "tenstorrent-sdks/tt-metal/tt-metal-installation",
               "path": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-installation",
               "sidebar": "tutorialSidebar"

@@ -1,0 +1,18 @@
+{
+  "id": "tenstorrent-sdks/tt-metal/tt-metal",
+  "title": "TT-Metal SDK",
+  "description": "This section introduces the TT-Metal SDK.",
+  "source": "@site/docs/tenstorrent-sdks/tt-metal/index.md",
+  "sourceDirName": "tenstorrent-sdks/tt-metal",
+  "slug": "/tenstorrent-sdks/tt-metal/",
+  "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "tt-metal",
+    "title": "TT-Metal SDK",
+    "sidebar_label": "TT-Metal"
+  }
+}

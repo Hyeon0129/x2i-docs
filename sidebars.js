@@ -37,6 +37,7 @@ const sidebars = {
           type: 'category',
           label: 'TT-Metal',
           collapsed: false,
+          
           items: [
             'tenstorrent-sdks/tt-metal/tt-metal-overview',
             'tenstorrent-sdks/tt-metal/tt-metal-installation',
