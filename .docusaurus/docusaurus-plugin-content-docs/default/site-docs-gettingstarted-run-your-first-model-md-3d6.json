@@ -1,0 +1,27 @@
+{
+  "id": "gettingstarted/run-your-first-model",
+  "title": "Run Your First Model",
+  "description": "",
+  "source": "@site/docs/gettingstarted/run-your-first-model.md",
+  "sourceDirName": "gettingstarted",
+  "slug": "/gettingstarted/run-your-first-model",
+  "permalink": "/docs/gettingstarted/run-your-first-model",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Run Your First Model"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation Prerequisites",
+    "permalink": "/docs/gettingstarted/installation_guide"
+  },
+  "next": {
+    "title": "TT-Metal Overview",
+    "permalink": "/docs/tenstorrent-sdks/tt-metal/tt-metal-overview"
+  }
+}

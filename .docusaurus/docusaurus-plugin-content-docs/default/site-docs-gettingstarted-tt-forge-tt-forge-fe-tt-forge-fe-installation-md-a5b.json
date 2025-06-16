@@ -1,0 +1,27 @@
+{
+  "id": "gettingstarted/tt-forge/tt-forge-fe/tt-forge-fe-installation",
+  "title": "Installing - TT-Forge-Fe",
+  "description": "",
+  "source": "@site/docs/gettingstarted/tt-forge/tt-forge-fe/tt-forge-fe-installation.md",
+  "sourceDirName": "gettingstarted/tt-forge/tt-forge-fe",
+  "slug": "/gettingstarted/tt-forge/tt-forge-fe/tt-forge-fe-installation",
+  "permalink": "/docs/gettingstarted/tt-forge/tt-forge-fe/tt-forge-fe-installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Installing - TT-Forge-Fe"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TT-Forge Overview",
+    "permalink": "/docs/gettingstarted/tt-forge/overview"
+  },
+  "next": {
+    "title": "Installing - TT-Torch",
+    "permalink": "/docs/gettingstarted/tt-forge/tt-torch/tt-torch-installation"
+  }
+}

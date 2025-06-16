@@ -1,0 +1,28 @@
+{
+  "id": "guide/llm/overview",
+  "title": "Overview",
+  "description": "",
+  "source": "@site/docs/guide/llm/overview.md",
+  "sourceDirName": "guide/llm",
+  "slug": "/guide/llm/overview",
+  "permalink": "/ko/docs/guide/llm/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Overview",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Run Your First Model",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/run-your-first-model"
+  },
+  "next": {
+    "title": "vLLM Setup Guide",
+    "permalink": "/ko/docs/guide/llm/vllm_setup_guide"
+  }
+}

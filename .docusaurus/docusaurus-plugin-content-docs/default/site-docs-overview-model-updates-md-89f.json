@@ -1,0 +1,28 @@
+{
+  "id": "overview/model_updates",
+  "title": "Model Updates",
+  "description": "Stay up to date with the latest model support updates for Tenstorrent.",
+  "source": "@site/docs/overview/model_updates.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/model_updates",
+  "permalink": "/ko/docs/overview/model_updates",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Model Updates",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Supported Models",
+    "permalink": "/ko/docs/overview/supportedmodels"
+  },
+  "next": {
+    "title": "System Requirements",
+    "permalink": "/ko/docs/gettingstarted/system-requirements"
+  }
+}

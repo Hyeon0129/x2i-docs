@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/d",
+  "title": "Get the Sandbox ID",
+  "description": "To connect to a running sandbox, you first need to retrieve its ID. You can do this by calling the Sandbox.list() method.",
+  "source": "@site/docs/tutorial-basics/d.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/d",
+  "permalink": "/docs/tutorial-basics/d",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Get the Sandbox ID"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "Deploy your site",
+    "permalink": "/docs/tutorial-basics/e"
+  }
+}

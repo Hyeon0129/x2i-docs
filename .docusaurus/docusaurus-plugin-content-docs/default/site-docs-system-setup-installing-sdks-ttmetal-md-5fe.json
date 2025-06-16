@@ -1,0 +1,27 @@
+{
+  "id": "system-setup/Installing_sdks_ttmetal",
+  "title": "Installing SDKs - TT-Metal",
+  "description": "alt text",
+  "source": "@site/docs/system-setup/Installing_sdks_ttmetal.md",
+  "sourceDirName": "system-setup",
+  "slug": "/system-setup/Installing_sdks_ttmetal",
+  "permalink": "/docs/system-setup/Installing_sdks_ttmetal",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Installing SDKs - TT-Metal"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installing SDKs - TT-Buda",
+    "permalink": "/docs/system-setup/Installing_sdks_ttbuda"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/guide/llm/overview"
+  }
+}

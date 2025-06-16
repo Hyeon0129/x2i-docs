@@ -1,0 +1,28 @@
+{
+  "id": "gettingstarted/system-requirements",
+  "title": "System Requirements",
+  "description": "This page outlines the minimum system requirements to operate Tenstorrent NPUs.",
+  "source": "@site/docs/gettingstarted/system-requirements.md",
+  "sourceDirName": "gettingstarted",
+  "slug": "/gettingstarted/system-requirements",
+  "permalink": "/ko/docs/gettingstarted/system-requirements",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "System Requirements",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Model Updates",
+    "permalink": "/ko/docs/overview/model_updates"
+  },
+  "next": {
+    "title": "Installation Prerequisites",
+    "permalink": "/ko/docs/gettingstarted/installation_guide"
+  }
+}

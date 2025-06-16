@@ -1,0 +1,26 @@
+{
+  "id": "tutorial-basics/a",
+  "title": "A30 vs. N300S 비교",
+  "description": "1) 내부에 있는 A30 대비 N300S 성능 비교",
+  "source": "@site/docs/tutorial-basics/a.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/a",
+  "permalink": "/docs/tutorial-basics/a",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Deploy your site",
+    "permalink": "/docs/tutorial-basics/b"
+  }
+}

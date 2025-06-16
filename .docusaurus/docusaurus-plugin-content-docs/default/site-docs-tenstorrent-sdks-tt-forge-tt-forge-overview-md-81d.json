@@ -1,0 +1,28 @@
+{
+  "id": "tenstorrent-sdks/tt-forge/tt-forge-overview",
+  "title": "TT-Forge Overview",
+  "description": "TT-Forge is Tenstorrent’s MLIR-based compiler, designed to bridge modern machine learning frameworks with Tenstorrent’s NPU hardware. It enables models from PyTorch,",
+  "source": "@site/docs/tenstorrent-sdks/tt-forge/tt-forge-overview.md",
+  "sourceDirName": "tenstorrent-sdks/tt-forge",
+  "slug": "/tenstorrent-sdks/tt-forge/tt-forge-overview",
+  "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "TT-Forge Overview",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Run Your First Model",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/run-your-first-model"
+  },
+  "next": {
+    "title": "Installing - TT-Forge-fe",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-fe-installation"
+  }
+}

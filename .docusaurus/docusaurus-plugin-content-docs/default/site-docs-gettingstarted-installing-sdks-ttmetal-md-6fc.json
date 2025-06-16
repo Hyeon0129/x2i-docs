@@ -1,0 +1,18 @@
+{
+  "id": "gettingstarted/Installing_sdks_ttmetal",
+  "title": "Installing - TT-Metal",
+  "description": "In the previous guide, we introduced the installation of drivers and the basic environment setup required for Tenstorrent NPU.",
+  "source": "@site/docs/gettingstarted/Installing_sdks_ttmetal.md",
+  "sourceDirName": "gettingstarted",
+  "slug": "/gettingstarted/Installing_sdks_ttmetal",
+  "permalink": "/docs/gettingstarted/Installing_sdks_ttmetal",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Installing - TT-Metal"
+  }
+}

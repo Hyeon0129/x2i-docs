@@ -1,0 +1,18 @@
+{
+  "id": "overview/Installing_sdks_ttmetal",
+  "title": "Installing SDKs - TT-Metal",
+  "description": "alt text",
+  "source": "@site/docs/overview/Installing_sdks_ttmetal.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/Installing_sdks_ttmetal",
+  "permalink": "/docs/overview/Installing_sdks_ttmetal",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Installing SDKs - TT-Metal"
+  }
+}

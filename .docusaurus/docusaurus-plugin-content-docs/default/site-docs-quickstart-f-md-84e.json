@@ -1,0 +1,26 @@
+{
+  "id": "Quickstart/f",
+  "title": "Deploy your site",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/Quickstart/f.md",
+  "sourceDirName": "Quickstart",
+  "slug": "/Quickstart/f",
+  "permalink": "/docs/Quickstart/f",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/Quickstart/e"
+  },
+  "next": {
+    "title": "Deploy your site",
+    "permalink": "/docs/Quickstart/g"
+  }
+}

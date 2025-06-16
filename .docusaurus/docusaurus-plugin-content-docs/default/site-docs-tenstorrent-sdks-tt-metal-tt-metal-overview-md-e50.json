@@ -1,0 +1,28 @@
+{
+  "id": "tenstorrent-sdks/tt-metal/tt-metal-overview",
+  "title": "TT-Metal Overview",
+  "description": "TT-Metal is a low-level Software Development Kit (SDK) for Tenstorrent Neural Processing Units (NPUs), providing direct access to the underlying hardware. It consists of two core layers—TT-NN and TT-Metalium—and enables developers to fully harness the performance of Tenstorrent chips. As the foundation of the entire software stack, all higher-level compilers and runtimes—including TT-Forge and TT-NN—ultimately operate through TT-Metal.",
+  "source": "@site/docs/tenstorrent-sdks/tt-metal/tt-metal-overview.md",
+  "sourceDirName": "tenstorrent-sdks/tt-metal",
+  "slug": "/tenstorrent-sdks/tt-metal/tt-metal-overview",
+  "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "TT-Metal Overview",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation Prerequisites",
+    "permalink": "/ko/docs/gettingstarted/installation_guide"
+  },
+  "next": {
+    "title": "Installing - TT-Metal",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-installation"
+  }
+}

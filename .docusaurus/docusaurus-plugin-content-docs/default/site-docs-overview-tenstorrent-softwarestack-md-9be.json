@@ -1,0 +1,27 @@
+{
+  "id": "overview/tenstorrent_softwarestack",
+  "title": "Software Stack",
+  "description": "Tenstorrent provides a modular, open-source software stack designed to support a range of AI workloads, from high-level frameworks to low-level kernel development. The stack includes tools for model compilation, runtime execution, and hardware-level programming, offering flexibility for various development needs.",
+  "source": "@site/docs/overview/tenstorrent_softwarestack.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/tenstorrent_softwarestack",
+  "permalink": "/docs/overview/tenstorrent_softwarestack",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Software Stack"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tenstorrent NPU",
+    "permalink": "/docs/overview/tenstorrent_overview"
+  },
+  "next": {
+    "title": "Installation Guide",
+    "permalink": "/docs/gettingstarted/installation_guide"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tenstorrent-sdks/tt-metal/run-your-first-model",
+  "title": "Run Your First Model",
+  "description": "This guide will walk you through running your first AI model using TT-Metal on Tenstorrent NPU hardware. We'll use the YOLOv4 object detection model as an example to demonstrate how to run models with TT-Metal.",
+  "source": "@site/docs/tenstorrent-sdks/tt-metal/run-your-first-model.md",
+  "sourceDirName": "tenstorrent-sdks/tt-metal",
+  "slug": "/tenstorrent-sdks/tt-metal/run-your-first-model",
+  "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/run-your-first-model",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Run Your First Model",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installing - TT-Metal",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-installation"
+  },
+  "next": {
+    "title": "TT-Forge Overview",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-overview"
+  }
+}

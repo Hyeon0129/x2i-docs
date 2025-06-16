@@ -1,0 +1,27 @@
+{
+  "id": "gettingstarted/tt-forge/tt-torch-installation",
+  "title": "Installing - TT-Torch",
+  "description": "",
+  "source": "@site/docs/gettingstarted/tt-forge/tt-torch-installation.md",
+  "sourceDirName": "gettingstarted/tt-forge",
+  "slug": "/gettingstarted/tt-forge/tt-torch-installation",
+  "permalink": "/docs/gettingstarted/tt-forge/tt-torch-installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Installing - TT-Torch"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installing - TT-Forge-Fe",
+    "permalink": "/docs/gettingstarted/tt-forge/tt-forge-fe-installation"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/guide/llm/overview"
+  }
+}

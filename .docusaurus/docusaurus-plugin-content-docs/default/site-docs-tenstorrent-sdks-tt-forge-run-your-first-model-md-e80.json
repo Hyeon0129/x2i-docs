@@ -1,0 +1,28 @@
+{
+  "id": "tenstorrent-sdks/tt-forge/run-your-first-model",
+  "title": "Run Your First Model",
+  "description": "This guide will walk you through running your first AI model using TT-Torch on Tenstorrent NPU hardware. We'll use a pre-trained ResNet model for image classification as an example to demonstrate how to compile and run models with TT-Torch.",
+  "source": "@site/docs/tenstorrent-sdks/tt-forge/run-your-first-model.md",
+  "sourceDirName": "tenstorrent-sdks/tt-forge",
+  "slug": "/tenstorrent-sdks/tt-forge/run-your-first-model",
+  "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/run-your-first-model",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Run Your First Model",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installing - TT-Torch",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/tt-torch-installation"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/ko/docs/guide/llm/overview"
+  }
+}

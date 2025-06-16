@@ -1,0 +1,23 @@
+{
+  "id": "overview/base-environment",
+  "title": "Overview",
+  "description": "",
+  "source": "@site/docs/overview/base-environment.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/base-environment",
+  "permalink": "/docs/overview/base-environment",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/overview/introduction"
+  }
+}

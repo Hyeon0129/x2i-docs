@@ -1,0 +1,48 @@
+---
+sidebar_position: 1
+title: Tenstorrent NPU
+hide_table_of_contents: true
+---
+
+# Tenstorrent NPU
+
+Tenstorrent's Neural Processing Units (NPU) are designed for high-performance deep learning inference, LLM, computer vision, and a variety of advanced AI workloads. 
+
+<img src="https://tenstorrent.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fjpb4ed5r%2Fproduction%2F83293d04fb69b49d789f892f7d1ca53da7f250c3-4800x2520.png&w=3840&q=75" alt="Tenstorrent NPU" style={{ width: '100%', borderRadius: '8px', margin: '24px 0' }} />
+
+Tenstorrent NPU are built on the scalable Tensix™ architecture.  
+Recent models, such as the Blackhole p100a and p150a, deliver improved performance over the previous-generation Wormhole boards in terms of core count, memory bandwidth, and clock speed.  
+The hardware is designed to support multi-chip configurations, enabling flexible execution of large-scale AI workloads.  
+Its system-level design accommodates multi-user environments and supports partitioning for enhanced scalability.  
+Tenstorrent NPU can be deployed in both on-premises infrastructure and selected cloud platforms.
+
+## Further Resources
+
+<ul>
+  <li><a href="https://tenstorrent.com/ip/tensix-neo" style={{ textDecoration: 'underline', color: '#ffffff', fontWeight: 'bold' }}>Tensix™ Core Architecture Overview</a></li>
+  <li><a href="https://tenstorrent.com/hardware/wormhole" style={{ textDecoration: 'underline', color: '#ffffff', fontWeight: 'bold' }}>Wormhole Product Page</a></li>
+  <li><a href="https://tenstorrent.com/hardware/blackhole" style={{ textDecoration: 'underline', color: '#ffffff', fontWeight: 'bold' }}>Blackhole Product Page</a></li>
+  <li><a href="https://github.com/tenstorrent" style={{ textDecoration: 'underline', color: '#ffffff', fontWeight: 'bold' }}>Tenstorrent GitHub Repositories</a></li>
+  <li><a href="/docs/gettingstarted/installation_guide" style={{ textDecoration: 'underline', color: '#ffffff', fontWeight: 'bold' }}>Getting Started with Tenstorrent SDKs</a></li>
+</ul>
+
+
+
+## Hardware Specification
+
+| Feature                 | Wormhole N300S (Dual-Chip)                | Blackhole P100A (Single-Chip)               | Blackhole P150A (Single-Chip)                    |
+| :----------------------| :-----------------------------| :-----------------------------| :----------------------------------|
+| **Tensix Cores**        | 128 (64 per ASIC)            | 120                           | 140                                |
+| **AI Clock**            | 1.0 GHz                      | 1.35 GHz                      | 1.35 GHz                           |
+| **Big RISC-V” Cores**                | N/A         | 16                        | 16                           |
+| **SRAM**                | 192MB        | 180 MB                        | 210 MB                             |
+| **Memory**              | 24GB GDDR6                   | 28GB GDDR6                    | 32GB GDDR6                         |
+| **Memory Speed**        | 12 GT/sec                    | 16 GT/sec                     | 16 GT/sec                          |
+| **Memory Bandwidth**    | 576 GB/sec                   | 448 GB/sec                    | 512 GB/sec                         |
+| **TeraFLOPS (FP8)**     | 466                 | 664               | 774                        |
+| **TeraFLOPS (FP16)**    | 131                   | 166                    | 194                         |
+| **TeraFLOPS (BLOCKFP8)**| 262                   | 332                   | 387                          |
+| **TBP(Total Board Power)**                 | 300W                         | 300W                          | 300W                               |
+| **System Interface**    | PCI Express 4.0 x16          | PCI Express 5.0 x16           | PCI Express 5.0 x16                |
+| **Cooling**             | Passive                      | Active                        | Active                             |
+| **Connectivity**        | 2x Warp 100, 2x QSFP-DD 200G*| N/A                           | 4x QSFP-DD 800G (Passive)*         |

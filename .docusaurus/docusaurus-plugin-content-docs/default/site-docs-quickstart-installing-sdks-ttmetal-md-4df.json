@@ -1,0 +1,23 @@
+{
+  "id": "Quickstart/Installing_sdks_ttmetal",
+  "title": "Tenstorrent",
+  "description": "Tenstorrent NPU를 사용하여 작업한 내용들과 개인 프로젝트 내역을 정리한 문서입니다.",
+  "source": "@site/docs/Quickstart/Installing_sdks_ttmetal.md",
+  "sourceDirName": "Quickstart",
+  "slug": "/Quickstart/Installing_sdks_ttmetal",
+  "permalink": "/docs/Quickstart/Installing_sdks_ttmetal",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Tenstorrent"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installing SDKs - TT-Buda",
+    "permalink": "/docs/Quickstart/Installing_sdks_ttbuda"
+  }
+}

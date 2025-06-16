@@ -1,0 +1,23 @@
+{
+  "id": "overview/Starting_guide",
+  "title": "Starting Guide",
+  "description": "alt text",
+  "source": "@site/docs/overview/Starting_guide.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/Starting_guide",
+  "permalink": "/docs/overview/Starting_guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Starting Guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Installing SDKs - TT-Buda",
+    "permalink": "/docs/overview/Installing_sdks_ttbuda"
+  }
+}

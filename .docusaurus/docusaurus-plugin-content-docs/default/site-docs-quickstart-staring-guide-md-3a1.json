@@ -1,0 +1,23 @@
+{
+  "id": "Quickstart/staring_guide",
+  "title": "Starting Guide",
+  "description": "alt text",
+  "source": "@site/docs/Quickstart/staring_guide.md",
+  "sourceDirName": "Quickstart",
+  "slug": "/Quickstart/staring_guide",
+  "permalink": "/docs/Quickstart/staring_guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Starting Guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/docs/intro"
+  }
+}

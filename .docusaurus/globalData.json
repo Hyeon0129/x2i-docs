@@ -1,0 +1,103 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/ko/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/ko/docs",
+          "mainDocId": "overview/tenstorrent_overview",
+          "docs": [
+            {
+              "id": "gettingstarted/installation_guide",
+              "path": "/ko/docs/gettingstarted/installation_guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "gettingstarted/system-requirements",
+              "path": "/ko/docs/gettingstarted/system-requirements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/llm/overview",
+              "path": "/ko/docs/guide/llm/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guide/llm/vllm_setup_guide",
+              "path": "/ko/docs/guide/llm/vllm_setup_guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "overview/model_updates",
+              "path": "/ko/docs/overview/model_updates",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "overview/supportedmodels",
+              "path": "/ko/docs/overview/supportedmodels",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "overview/tenstorrent_overview",
+              "path": "/ko/docs/overview/tenstorrent_overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "overview/tenstorrent_softwarestack",
+              "path": "/ko/docs/overview/tenstorrent_softwarestack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tenstorrent-sdks/tt-forge/run-your-first-model",
+              "path": "/ko/docs/tenstorrent-sdks/tt-forge/run-your-first-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tenstorrent-sdks/tt-forge/tt-forge-fe-installation",
+              "path": "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-fe-installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tenstorrent-sdks/tt-forge/tt-forge-overview",
+              "path": "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tenstorrent-sdks/tt-forge/tt-torch-installation",
+              "path": "/ko/docs/tenstorrent-sdks/tt-forge/tt-torch-installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tenstorrent-sdks/tt-metal/run-your-first-model",
+              "path": "/ko/docs/tenstorrent-sdks/tt-metal/run-your-first-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tenstorrent-sdks/tt-metal/tt-metal-installation",
+              "path": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tenstorrent-sdks/tt-metal/tt-metal-overview",
+              "path": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-overview",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/ko/docs/overview/tenstorrent_overview",
+                "label": "overview/tenstorrent_overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

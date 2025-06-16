@@ -1,0 +1,24 @@
+{
+  "id": "overview/tenstorrent_overview",
+  "title": "Tenstorrent NPU",
+  "description": "Tenstorrent's Neural Processing Units (NPU) are designed for high-performance deep learning inference, LLM, computer vision, and a variety of advanced AI workloads.",
+  "source": "@site/docs/overview/tenstorrent_overview.mdx",
+  "sourceDirName": "overview",
+  "slug": "/overview/tenstorrent_overview",
+  "permalink": "/ko/docs/overview/tenstorrent_overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Tenstorrent NPU",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Software Stack",
+    "permalink": "/ko/docs/overview/tenstorrent_softwarestack"
+  }
+}

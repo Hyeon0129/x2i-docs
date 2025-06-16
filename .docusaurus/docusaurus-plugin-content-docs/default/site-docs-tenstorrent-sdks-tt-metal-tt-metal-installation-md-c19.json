@@ -1,0 +1,36 @@
+{
+  "id": "tenstorrent-sdks/tt-metal/tt-metal-installation",
+  "title": "Installing - TT-Metal",
+  "description": "Learn how to run the YOLOv4 object detection model on Tenstorrent NPU using TT-Metal.",
+  "source": "@site/docs/tenstorrent-sdks/tt-metal/tt-metal-installation.md",
+  "sourceDirName": "tenstorrent-sdks/tt-metal",
+  "slug": "/tenstorrent-sdks/tt-metal/tt-metal-installation",
+  "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Installing - TT-Metal",
+    "description": "Learn how to run the YOLOv4 object detection model on Tenstorrent NPU using TT-Metal.",
+    "keywords": [
+      "Tenstorrent",
+      "YOLOv4",
+      "TT-Metal",
+      "object detection",
+      "NPU"
+    ],
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TT-Metal Overview",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-overview"
+  },
+  "next": {
+    "title": "Run Your First Model",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/run-your-first-model"
+  }
+}

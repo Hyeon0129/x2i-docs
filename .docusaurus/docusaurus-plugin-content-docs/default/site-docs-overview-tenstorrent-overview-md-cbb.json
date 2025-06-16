@@ -1,0 +1,23 @@
+{
+  "id": "overview/tenstorrent_overview",
+  "title": "Overview",
+  "description": "Welcome to the Tenstorrent NPU documentation! This guide is designed to help you understand the capabilities, architecture, and usage of Tenstorrent’s Neural Processing Units (NPUs).",
+  "source": "@site/docs/overview/tenstorrent_overview.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/tenstorrent_overview",
+  "permalink": "/docs/overview/tenstorrent_overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/overview/introduction"
+  }
+}

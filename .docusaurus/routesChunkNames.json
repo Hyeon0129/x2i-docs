@@ -1,0 +1,289 @@
+{
+  "/ko/blog-3c0": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "a2b5a152"
+  },
+  "/ko/blog/archive-dfa": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "6aa772c3"
+  },
+  "/ko/blog/authors-917": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "3e014d13"
+  },
+  "/ko/blog/authors/all-sebastien-lorber-articles-c80": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "94ab434c"
+  },
+  "/ko/blog/authors/yangshun-71d": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "15270007"
+  },
+  "/ko/blog/first-blog-post-508": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "e273c56f"
+  },
+  "/ko/blog/long-blog-post-d55": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "73664a40"
+  },
+  "/ko/blog/mdx-blog-post-e1b": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "59362658"
+  },
+  "/ko/blog/tags-940": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "abc6f1e9"
+  },
+  "/ko/blog/tags/docusaurus-25d": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "b95a68e6"
+  },
+  "/ko/blog/tags/facebook-ec9": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      }
+    ],
+    "__props": "b59b70fb"
+  },
+  "/ko/blog/tags/hello-d6d": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      }
+    ],
+    "__props": "73034f33"
+  },
+  "/ko/blog/tags/hola-688": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "e33562e6"
+  },
+  "/ko/blog/welcome-209": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "d9f32620"
+  },
+  "/ko/markdown-page-df2": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/ko/docs-e71": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/ko/docs-eec": {
+    "__comp": "a7bd4aaa",
+    "__props": "3fb08f48"
+  },
+  "/ko/docs-7f3": {
+    "__comp": "a94703ab"
+  },
+  "/ko/docs/gettingstarted/installation_guide-7a4": {
+    "__comp": "17896441",
+    "content": "baab5422"
+  },
+  "/ko/docs/gettingstarted/system-requirements-709": {
+    "__comp": "17896441",
+    "content": "0971abab"
+  },
+  "/ko/docs/guide/llm/overview-929": {
+    "__comp": "17896441",
+    "content": "1375e106"
+  },
+  "/ko/docs/guide/llm/vllm_setup_guide-9e9": {
+    "__comp": "17896441",
+    "content": "0d7952ce"
+  },
+  "/ko/docs/overview/model_updates-67b": {
+    "__comp": "17896441",
+    "content": "89fa2ae5"
+  },
+  "/ko/docs/overview/supportedmodels-f19": {
+    "__comp": "17896441",
+    "content": "bcd71e44"
+  },
+  "/ko/docs/overview/tenstorrent_overview-6f4": {
+    "__comp": "17896441",
+    "content": "7ed9b21d"
+  },
+  "/ko/docs/overview/tenstorrent_softwarestack-be1": {
+    "__comp": "17896441",
+    "content": "1f648050"
+  },
+  "/ko/docs/tenstorrent-sdks/tt-forge/run-your-first-model-c95": {
+    "__comp": "17896441",
+    "content": "e80caefe"
+  },
+  "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-fe-installation-00e": {
+    "__comp": "17896441",
+    "content": "af7911a6"
+  },
+  "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-overview-346": {
+    "__comp": "17896441",
+    "content": "81d9cc4c"
+  },
+  "/ko/docs/tenstorrent-sdks/tt-forge/tt-torch-installation-9ef": {
+    "__comp": "17896441",
+    "content": "17190541"
+  },
+  "/ko/docs/tenstorrent-sdks/tt-metal/run-your-first-model-e5e": {
+    "__comp": "17896441",
+    "content": "cd86ca04"
+  },
+  "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-installation-66e": {
+    "__comp": "17896441",
+    "content": "c19357ef"
+  },
+  "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-overview-4ab": {
+    "__comp": "17896441",
+    "content": "e5066690"
+  },
+  "/ko/-25c": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

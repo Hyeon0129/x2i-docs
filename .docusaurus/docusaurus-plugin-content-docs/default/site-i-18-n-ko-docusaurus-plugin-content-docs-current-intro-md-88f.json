@@ -1,0 +1,22 @@
+{
+  "id": "intro",
+  "title": "Tutorial Intro",
+  "description": "Tenstorrent NPU는 차세대 AI 컴퓨팅 솔루션입니다.",
+  "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/ko/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Starting Guide",
+    "permalink": "/ko/docs/Quickstart/Starting_guide"
+  }
+}

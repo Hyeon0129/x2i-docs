@@ -1,0 +1,14 @@
+{
+  "id": "Quickstart/test",
+  "title": "test",
+  "description": "",
+  "source": "@site/docs/Quickstart/test.mdx",
+  "sourceDirName": "Quickstart",
+  "slug": "/Quickstart/test",
+  "permalink": "/docs/Quickstart/test",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

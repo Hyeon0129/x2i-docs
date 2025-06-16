@@ -1,0 +1,28 @@
+{
+  "id": "tenstorrent-sdks/tt-forge/tt-torch-installation",
+  "title": "Installing - TT-Torch",
+  "description": "This Tenstorrent TT-Torch Installation Guide will walk you through the setup process for TT-Torch, Tenstorrent's PyTorch-based front-end for tt-mlir. TT-Torch enables you to compile PyTorch models to run efficiently on Tenstorrent NPU hardware.",
+  "source": "@site/docs/tenstorrent-sdks/tt-forge/tt-torch-installation.md",
+  "sourceDirName": "tenstorrent-sdks/tt-forge",
+  "slug": "/tenstorrent-sdks/tt-forge/tt-torch-installation",
+  "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/tt-torch-installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Installing - TT-Torch",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installing - TT-Forge-fe",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-fe-installation"
+  },
+  "next": {
+    "title": "Run Your First Model",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/run-your-first-model"
+  }
+}

@@ -1,0 +1,52 @@
+---
+sidebar_position: 2
+title: Software Stack
+hide_table_of_contents: true
+---
+
+
+# Tenstorrent Software Stack
+
+Tenstorrent provides a modular, open-source software stack designed to support a range of AI workloads, from high-level frameworks to low-level kernel development. The stack includes tools for model compilation, runtime execution, and hardware-level programming, offering flexibility for various development needs.
+
+<img src="/img/software_stack.png" className="rounded-image" />
+
+<br />
+<br />
+<br />
+<br />
+
+# TT-Forge: MLIR-Based Compiler
+TT-Forge is Tenstorrent's MLIR-based compiler, designed to work with ML frameworks ranging from domain-specific compilers to custom kernel generators. It integrates with technologies like OpenXLA, PyTorch, JAX, and TensorFlow, enabling efficient compilation and optimization of AI workloads for Tenstorrent hardware.
+
+- **TT-Torch** : Converts PyTorch models into StableHLO format using Torch-MLIR.
+- **TT-XLA** : Connects JAX models via OpenXLA (PJRT interface).
+- **TT-Forge-fe** : Accepts multiple formats and optimizes model graphs (built on Apache TVM).
+- **TT-MLIR** : Core compiler backend that lowers operations into Tenstorrent-specific instructions.
+- **TT-TVM** : Customized TVM integration for broader framework support.
+
+Together, TT-Forge ensures compatibility and performance across frameworks, compiling models into deployable binaries for NPU execution.
+
+<br />
+
+<img src="https://docs.tenstorrent.com/tt-forge-fe/imgs/compiler_arch/tt-forge_overview.svg" />
+
+<br />
+<br />
+<br />
+<br />
+
+# TT-Metalium: Low-Level Programming Interface
+TT-Metalium is Tenstorrent's low-level programming interface, allowing developers to write custom kernels in C++ for direct execution on Tensix cores. It provides fine-grained control over data movement and computation, enabling optimization of performance-critical applications
+
+<br />
+
+# TT-NN: Operator Library
+TT-NN is a collection of pre-optimized neural network operators provided by Tenstorrent. It offers a set of building blocks for constructing AI models, facilitating efficient deployment on Tenstorrent hardware.
+
+<br />
+
+# Utility Tools
+ - **TT-SMI** : command-line tool used for **monitoring** and **managing** Tenstorrent hardware in real time.
+ - **TT-Flash** : allows developers to **flash or update firmware** on Tenstorrent NPU through a simple CLI interface.
+ - **TT-Topology**: utility to **configure Ethernet routing layouts** (mesh, linear, torus) across multiple Tenstorrent boards.

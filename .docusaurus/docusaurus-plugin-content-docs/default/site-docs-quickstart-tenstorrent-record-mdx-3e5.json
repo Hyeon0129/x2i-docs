@@ -1,0 +1,19 @@
+{
+  "id": "Quickstart/tenstorrent_record",
+  "title": "tenstorrent_record",
+  "description": "",
+  "source": "@site/docs/Quickstart/tenstorrent_record.mdx",
+  "sourceDirName": "Quickstart",
+  "slug": "/Quickstart/tenstorrent_record",
+  "permalink": "/docs/Quickstart/tenstorrent_record",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tenstorrent Project Summary",
+    "permalink": "/docs/Quickstart/Installing_sdks_ttmetal"
+  }
+}

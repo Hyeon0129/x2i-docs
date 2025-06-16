@@ -1,0 +1,27 @@
+{
+  "id": "overview/introduction",
+  "title": "tenstorrent_softwarestack",
+  "description": "",
+  "source": "@site/docs/overview/introduction.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/introduction",
+  "permalink": "/docs/overview/introduction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "tenstorrent_softwarestack"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/overview/tenstorrent_overview"
+  },
+  "next": {
+    "title": "Installation Guide",
+    "permalink": "/docs/gettingstarted/installation_guide"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "overview/supportedmodels",
+  "title": "Supported Models",
+  "description": "Tenstorrent supports a broad range of models across LLMs, CNNs, speech, and NLP. Below is a categorized list of officially tested and supported models on Tenstorrent hardware, based on real benchmark results.",
+  "source": "@site/docs/overview/supportedmodels.mdx",
+  "sourceDirName": "overview",
+  "slug": "/overview/supportedmodels",
+  "permalink": "/ko/docs/overview/supportedmodels",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Supported Models",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Software Stack",
+    "permalink": "/ko/docs/overview/tenstorrent_softwarestack"
+  },
+  "next": {
+    "title": "Model Updates",
+    "permalink": "/ko/docs/overview/model_updates"
+  }
+}

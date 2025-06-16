@@ -1,0 +1,857 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #f58300;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  background-color: #18181b;
+  --ifm-color-primary: #aba9a9;
+  --ifm-color-primary-dark: #1fa588;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: #363534;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* custom.css */
+.navbar__logo img {
+  height: 2.4rem !important;  
+  width: auto;   
+  transform: translateY(-2px);
+}
+
+.navbar__link {
+  line-height: 2rem !important; 
+}
+
+
+
+[data-theme='dark'] .theme-code-block-highlighted-line {
+  color: #da6e21 !important;
+  font-weight: bold;
+}
+
+/* dark theme background */
+[data-theme='dark'] {
+  background-color: #141414;
+}
+/* end */
+
+
+/* navvar background , solid */
+[data-theme='dark'] .navbar {
+  background-color: #141414;
+  border-bottom: 1px solid #333333;
+}
+/* end */
+
+
+/* for sidebar background */
+[data-theme='dark'] .menu {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* end */
+
+
+
+/* sidebar menu font , color */
+[data-theme='dark'] .menu__link {
+  color: #8c8c94;
+  width:100%;
+  transition: color 0.3s ease;
+  padding-left: 1.5rem;
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding-bottom: 0.5rem
+}
+/* end */
+
+
+
+
+/* menu margin remove */
+[data-theme='dark'] .menu__list {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* end */
+
+
+[data-theme='dark'] .menu__link:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: #ffffff;
+  margin: 0 !important;
+  border-radius: 4px; 
+}
+
+
+[data-theme='dark'] .menu__link--active {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+
+
+
+
+
+/* 최상위 대제목 드롭다운 버튼 안보이게 */
+.theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible > .menu__link.menu__link--sublist-caret::after {
+  display: none !important;
+}
+
+
+/* 여기까지 */
+.theme-doc-sidebar-item-category-level-1>.menu__list-item-collapsible>.menu__link {
+  pointer-events: none !important;
+  cursor: default !important;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  margin-top: 1.3rem; 
+  margin-bottom: 0.4rem;
+}
+
+
+ 
+.theme-doc-sidebar-item-category-level-2>.menu__list-item-collapsible>.menu__link {
+  margin-left: 0 !important; 
+}
+
+
+.theme-doc-sidebar-item-category-level-2 .menu__link:not(.menu__link--sublist-caret) {
+  padding-left: 2.53rem !important;  /* 기존 1.5rem + 1.15rem 들여쓰기 */
+  margin-left: 0 !important;         /* margin-left 없애고, 대신 padding-left로 들여쓰기 */
+}
+
+/* Second menu */
+.menu__list-item .menu__list .menu__list-item-collapsible>.menu__link {
+  font-weight: 500;
+  font-size: 0.rem;
+}
+/* end */
+
+
+
+
+
+
+
+[data-theme='dark'] .theme-doc-markdown code {
+  background-color: #1e1e1e;
+  color: #f97316;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+
+
+[data-theme='dark'] .menu__list-item>.menu__link--active::before {
+  content: '';
+  position: absolute;
+  left: 0.5rem;
+  top: 48%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 0px;
+}
+/* end */
+
+
+
+
+.menu__list-item-collapsible:hover{
+ background-color: transparent !important; 
+}
+
+
+/* 기존 드롭다운 아이콘 완전히 제거 */
+.menu__link--sublist-caret::after {
+  display: none !important;
+}
+
+/* 새로운 커스텀 드롭다운 아이콘 */
+.menu__link--sublist-caret::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 20px;
+  margin-left: -1.3rem;
+  margin-right: 0.4rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23999999' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9,18 15,12 9,6'%3E%3C/polyline%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.2s ease, filter 0.2s ease;
+  flex-shrink: 0;
+}
+
+/* hover 시 아이콘 색상 변경 */
+[data-theme='dark'] .menu__link--sublist-caret:hover::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9,18 15,12 9,6'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+/* 드롭다운 열렸을 때 아이콘 회전 */
+.menu__link--sublist-caret[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9,18 15,12 9,6'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+/* 1레벨 드롭다운도 같은 스타일 적용 (필요한 경우) */
+.theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible > .menu__link.menu__link--sublist-caret::before {
+  display: none !important; /* 1레벨은 아이콘 숨김 (기존 설정 유지) */
+}
+
+
+
+
+
+/* 
+.theme-doc-sidebar-item-category-level-1::after {
+  content: '';
+  position: absolute;
+  top: 0.6rem;
+  left: -400px;
+  right: -400px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+/* sidebar solide */
+
+/* logo Docs */
+[data-theme='dark'] .navbar__link--active {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+/* end */
+
+
+
+
+
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+thead th {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.9rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #2a2a2a;
+  border-right: 0.5px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+tbody td {
+  padding: 1rem;
+  background-color: #121212;
+  color: #d0d0d0;
+  border-top: 1px solid #1e1e1e;
+  border-right: 0.5px solid rgba(255, 255, 255, 0.08);
+  vertical-align: middle;
+}
+
+
+thead th:last-child,
+tbody td:last-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+/* end */
+
+
+
+/* hash-link  */
+a.hash-link::before {
+  content: '🔗';
+  font-size: 0.6em;
+}
+a.hash-link {
+  text-decoration: none;
+}
+/* table */
+
+/* ============================================================== */
+
+
+/* 메인 breadcrumbs 컨테이너 설정 */
+/* breadcrumbs 최종 정리 */
+.breadcrumbs {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-bottom: -0.6rem;
+  margin-top: 1.5rem;
+  padding: 0 0.75rem;
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+.breadcrumbs__item::after {
+  display: none !important;
+}
+
+
+
+/* 첫 번째(홈) 아이콘 제거 */
+.breadcrumbs__item:first-child {
+  display: none;
+}
+
+/* 마지막(현재 페이지) 제거 */
+.breadcrumbs__item:last-child {
+  display: none;
+}
+
+/* 기본 separator(->) 숨기기 */
+.breadcrumbs__separator {
+  display: none !important;
+}
+
+/* 아이템들을 인라인으로 표시 */
+.breadcrumbs__item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* 슬래시(/)만 separator로 넣기 (첫 번째 이후 아이템에만 추가) */
+.breadcrumbs__item:not(:first-child):not(:nth-child(2))::before {
+  content: "/";
+  margin: -0.4rem;
+  /* 간격을 좁혀줌 */
+  color: #a0a0a0;
+}
+
+
+
+/* 링크를 일반 텍스트처럼 보이게 */
+.breadcrumbs__link {
+  color: #a0a0a0;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+/* 리스트 스타일 초기화 */
+.breadcrumbs ol {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+/* pagination 가운데 정렬 (사이드바 제외) */
+.pagination-nav {
+  display: none !important;
+}
+
+/* 본문 콘텐츠 가운데 정렬 */
+.theme-doc-markdown {
+  max-width: 1024px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1.5rem;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #e0e0e0;
+  
+}
+
+
+
+/* TOC link colors */
+[data-theme='dark'] .table-of-contents a {
+  color: #8c8c94; /* Gray for inactive links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+[data-theme='dark'] .table-of-contents a.table-of-contents__link--active {
+  color: #ffffff; /* White for active link */
+  font-weight: 500; /* Slightly bolder for emphasis */
+}
+
+[data-theme='dark'] .table-of-contents a:hover {
+  color: #ffffff; /* White on hover */
+}
+
+/* ============================================================== */
+
+
+
+
+
+
+/* markdown - : li */
+.markdown>ul>li {
+  padding-left: 0.35em;
+  position: relative;
+}
+
+.markdown>ul>li::marker {
+  color: #f58300;
+  font-size: 1em;
+}
+
+.markdown>ul {
+  margin-left: -0.5em;
+}
+/* end */
+
+
+
+/* contecnt font size, style */
+.theme-doc-markdown h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.theme-doc-markdown h2 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.theme-doc-markdown h3 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.theme-code-block code {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+[data-theme='dark'] .theme-doc-markdown p {
+  color: #aba9a9;
+  line-height: 1.75;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+[data-theme='dark'] .theme-doc-markdown strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+[data-theme='dark'] .theme-doc-markdown a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+/* end */
+
+
+
+/* code block copy */
+div[class*="buttonGroup"] .clean-btn {
+  display: inline-flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+
+div[class*="buttonGroup"] {
+  position: absolute !important;
+  top: -2.2rem !important;
+  right: 0.6rem !important;
+  display: flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  z-index: 9999 !important;
+}
+
+div[class*="buttonGroup"] .clean-btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 6px;
+  border: none;
+  padding: 0;
+  color: #e0e0e0;
+  transition: background 0.2s ease;
+}
+
+div[class*="buttonGroup"] .clean-btn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+div[class*="codeBlockTitle"] {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+/* end */
+
+
+/* code block language style */
+[data-theme='dark'] .language-bash {
+  background-color: #1e1e1e !important;
+  color: #999999 !important;
+}
+
+[data-theme='dark'] .language-python {
+  background-color: #1e1e1e !important;
+  color: #999999 !important;
+}
+.codeBlockTitle_Ktv7 {
+  background-color: #1e1e1e;
+  border-bottom: none !important;
+}
+/* code block copy */
+
+
+
+/* software stack picture  */
+.rounded-image {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+/* end */
+
+
+
+/* NOTE */
+.theme-admonition.theme-admonition-note {
+  background: #131b2e;
+  border: 1px solid #234077;
+  color: #e7eaf3;
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 16px 0;
+  position: relative;
+}
+
+
+/* TIP */
+.theme-admonition.theme-admonition-tip {
+  background: #1a1d22;
+  border: 1px solid #2e3a4a;
+  color: #d1e5f5;
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 16px 0;
+  position: relative;
+}
+
+
+
+/* INFO */
+.theme-admonition.theme-admonition-info {
+  background: #162032;
+  border: 1px solid #7c5dfa;
+  color: #eae6fb;
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 16px 0;
+  position: relative;
+}
+
+/* WARNING */
+.theme-admonition.theme-admonition-warning {
+  background: #2b230a;
+  border: 1px solid #df9b28;
+  color: #faefcf;
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 16px 0;
+  position: relative;
+}
+
+/* DANGER */
+.theme-admonition.theme-admonition-danger {
+  background: #2d1518;
+  border: 1px solid #f15d6b;
+  color: #fadada;
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 16px 0;
+  position: relative;
+}
+
+
+/* info customize */
+.theme-admonition.theme-admonition-info .admonitionIcon_Rf37 {
+  display: none;
+}
+
+
+.theme-admonition.theme-admonition-info [class^="admonitionHeading_"] {
+  position: relative;
+  padding-left: 2em;
+  margin-bottom: 0.8rem;
+}
+
+.theme-admonition.theme-admonition-info [class^="admonitionHeading_"]::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0.1em;
+  top: -0.1em;
+  width: 1.4em;
+  height: 1.4em;
+  background-image: url("/img/note.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  filter: drop-shadow(0 0 2px #7c5dfa);
+}
+
+/* end */
+
+
+
+
+/* Model Updates menu */
+.model-month {
+  margin-bottom: 2.5rem;
+}
+
+.model-update {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.4rem;
+  align-items: flex-start;
+}
+
+.model-date {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #e5e5e5;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  white-space: nowrap;
+  margin-top: 0.2rem;
+}
+
+.model-content {
+  color: #cfcfcf;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.model-content strong {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.model-divider {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  margin: 2.8rem 0;
+}
+
+.model-month h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+/* end */
+
+
+
+
+
+
+/* language toggle */
+.navbar__item.dropdown.dropdown--hoverable.dropdown--right {
+  font-size: 0; 
+}
+
+.navbar__item.dropdown.dropdown--hoverable.dropdown--right svg {
+  display: none; 
+}
+
+.navbar__item.dropdown.dropdown--hoverable.dropdown--right::before {
+  content: url('/img/globe.svg'); 
+  display: inline-block;
+  vertical-align: middle;
+}
+/* end */
+
+
+
+/* scrollbar */
+:root {
+  --background-color: #000000;
+  --accent-color-hover:#5c5c5c;
+  --secondary-color: #333333;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color-hover);
+}
+
+
+.sidebar-scrollable::-webkit-scrollbar {
+  width: 8px;
+}
+.sidebar-scrollable::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+
+.sidebar-scrollable::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+.sidebar-scrollable::-webkit-scrollbar-track {
+  background: #141414 !important;
+  border-radius: 4px !important;
+}
+
+.sidebar-scrollable::-webkit-scrollbar-thumb {
+  background: #333333 !important;
+  border-radius: 4px !important;
+}
+
+.sidebar-scrollable::-webkit-scrollbar-thumb:hover {
+  background: #5c5c5c !important;
+}
+
+/* 2. Docusaurus 사이드바 컨테이너에 대한 추가 스타일링 */
+.theme-doc-sidebar-container::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+.theme-doc-sidebar-container::-webkit-scrollbar-track {
+  background: #141414 !important;
+}
+
+.theme-doc-sidebar-container::-webkit-scrollbar-thumb {
+  background: #333333 !important;
+  border-radius: 4px !important;
+}
+
+.theme-doc-sidebar-container::-webkit-scrollbar-thumb:hover {
+  background: #5c5c5c !important;
+}
+
+/* 3. 사이드바 메뉴 리스트에 대한 스타일링 */
+.menu::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+.menu::-webkit-scrollbar-track {
+  background: #141414 !important;
+}
+
+.menu::-webkit-scrollbar-thumb {
+  background: #333333 !important;
+  border-radius: 4px !important;
+}
+
+.menu::-webkit-scrollbar-thumb:hover {
+  background: #5c5c5c !important;
+}
+
+/* 4. 모든 사이드바 관련 스크롤바에 대한 포괄적 스타일링 */
+[class*="sidebar"]::-webkit-scrollbar,
+[class*="menu"]::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+[class*="sidebar"]::-webkit-scrollbar-track,
+[class*="menu"]::-webkit-scrollbar-track {
+  background: #141414 !important;
+}
+
+[class*="sidebar"]::-webkit-scrollbar-thumb,
+[class*="menu"]::-webkit-scrollbar-thumb {
+  background: #333333 !important;
+  border-radius: 4px !important;
+}
+
+[class*="sidebar"]::-webkit-scrollbar-thumb:hover,
+[class*="menu"]::-webkit-scrollbar-thumb:hover {
+  background: #5c5c5c !important;
+}
+
+/* 5. Firefox 브라우저 지원 */
+.sidebar-scrollable {
+  scrollbar-width: thin !important;
+  scrollbar-color: #333333 #141414 !important;
+}
+
+.theme-doc-sidebar-container {
+  scrollbar-width: thin !important;
+  scrollbar-color: #333333 #141414 !important;
+  border-right: 1px solid #333333 !important;
+}
+
+/* 6. 다크 테마에서 사이드바 배경색 확실하게 설정 */
+[data-theme='dark'] .sidebar-scrollable {
+  background-color: #141414;
+}
+
+
+
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');

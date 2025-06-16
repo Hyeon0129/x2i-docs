@@ -1,0 +1,14 @@
+{
+  "id": "Quickstart/aa",
+  "title": "aa",
+  "description": "test",
+  "source": "@site/docs/Quickstart/aa.mdx",
+  "sourceDirName": "Quickstart",
+  "slug": "/Quickstart/aa",
+  "permalink": "/docs/Quickstart/aa",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

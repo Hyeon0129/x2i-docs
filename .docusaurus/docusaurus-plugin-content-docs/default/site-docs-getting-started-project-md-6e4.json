@@ -1,0 +1,23 @@
+{
+  "id": "GettingStarted/project",
+  "title": "Tenstorrent Project Summary",
+  "description": "This document summarizes the work completed using Tenstorrent NPU platforms. It is intended to provide immediate context for collaborators who are new to the project or need to understand the current technical status of Tenstorrent SDK usage and model support.",
+  "source": "@site/docs/GettingStarted/project.md",
+  "sourceDirName": "GettingStarted",
+  "slug": "/GettingStarted/project",
+  "permalink": "/docs/GettingStarted/project",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Tenstorrent Project Summary"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installing SDKs - TT-Buda",
+    "permalink": "/docs/GettingStarted/Installing_sdks_ttbuda"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tenstorrent-sdks/tt-forge/tt-forge-fe-installation",
+  "title": "Installing - TT-Forge-Fe",
+  "description": "This guide will walk you through the installation process for TT-Forge-Fe, Tenstorrent's frontend compiler for the Forge SDK. TT-Forge-Fe enables you to compile models from various frameworks to run efficiently on Tenstorrent NPU hardware.",
+  "source": "@site/docs/tenstorrent-sdks/tt-forge/tt-forge-fe-installation.md",
+  "sourceDirName": "tenstorrent-sdks/tt-forge",
+  "slug": "/tenstorrent-sdks/tt-forge/tt-forge-fe-installation",
+  "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-fe-installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Installing - TT-Forge-Fe",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TT-Forge Overview",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-overview"
+  },
+  "next": {
+    "title": "Installing - TT-Torch",
+    "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/tt-torch-installation"
+  }
+}

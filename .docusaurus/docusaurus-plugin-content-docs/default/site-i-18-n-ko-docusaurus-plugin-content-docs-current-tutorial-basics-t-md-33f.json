@@ -1,0 +1,26 @@
+{
+  "id": "tutorial-basics/t",
+  "title": "Deploy your site",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/tutorial-basics/t.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/t",
+  "permalink": "/ko/docs/tutorial-basics/t",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/ko/docs/tutorial-basics/g"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/ko/docs/tutorial-extras/manage-docs-versions"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "Quickstart/Tenstorrent_NPU_Setup_Guide",
+  "title": "Tenstorrent_NPU_Setup_Guide",
+  "description": "---",
+  "source": "@site/docs/Quickstart/Tenstorrent_NPU_Setup_Guide.md",
+  "sourceDirName": "Quickstart",
+  "slug": "/Quickstart/Tenstorrent_NPU_Setup_Guide",
+  "permalink": "/docs/Quickstart/Tenstorrent_NPU_Setup_Guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/docs/intro"
+  }
+}
