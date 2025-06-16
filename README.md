@@ -1,46 +1,21 @@
-<<<<<<< HEAD
-# Website
-
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-=======
 # x2i-docs
-Personal Docusaurus docs site
->>>>>>> 0afefd99445fc6f1cf1ab8b78e1c852021fb136e
+
+This is a personal technical documentation site built with [Docusaurus](https://docusaurus.io/).  
+It is designed to organize and archive content related to **Tenstorrent NPU**, system setup, AI inference testing, and infrastructure automation for personal reference.
+
+---
+
+## Purpose
+
+This project serves the following purposes:
+
+- A **personal engineering knowledge base** and technical journal  
+- Documentation for setting up and testing Tenstorrent NPU environments (e.g., vLLM, LLaMA, TT-Metal usage)  
+- A **self-hosted reference site** accessible at [`docs.x2i.dev`](https://docs.x2i.dev)
+
+---
+
+## 🛠 Installation
+
+```bash
+npm install
