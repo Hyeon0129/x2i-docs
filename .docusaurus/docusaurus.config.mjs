@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "X2i.dev Docs",
+  "title": "Pyron",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/x2i_logo.ico",
   "url": "https://your-docusaurus-site.example.com",
@@ -401,7 +401,7 @@ export default {
           "activeBaseRegex": "/docs/"
         },
         {
-          "to": "https://x2i.dev/blog/",
+          "to": "https://pyron.dev/blog/",
           "label": "Blog",
           "position": "left"
         },
