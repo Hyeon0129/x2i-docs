@@ -85,11 +85,8 @@ const config = {
 
   themeConfig: ({
 
-    
-
-
     prism: {
-      theme: require('prism-react-renderer').themes.github,
+      theme: customPrism,
       darkTheme: customPrism,
       defaultLanguage: 'python',
       additionalLanguages: ['bash'],
@@ -98,7 +95,7 @@ const config = {
     colorMode: {
       defaultMode: 'dark',   
       disableSwitch: true,   
-      respectPrefersColorScheme: true, 
+      respectPrefersColorScheme: false, 
     },
     docs: {
     },

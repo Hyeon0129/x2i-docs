@@ -67,37 +67,99 @@ export default {
     "prism": {
       "theme": {
         "plain": {
-          "color": "#393A34",
-          "backgroundColor": "#f6f8fa"
+          "backgroundColor": "#2D2E2E",
+          "color": "#D4D4D4"
         },
         "styles": [
           {
             "types": [
-              "comment",
-              "prolog",
-              "doctype",
-              "cdata"
+              "prolog"
             ],
             "style": {
-              "color": "#999988",
-              "fontStyle": "italic"
+              "color": "rgb(0, 0, 128)"
             }
           },
           {
             "types": [
-              "namespace"
+              "comment"
             ],
             "style": {
-              "opacity": 0.7
+              "color": "rgb(106, 153, 85)"
             }
           },
           {
             "types": [
+              "builtin",
+              "changed",
+              "keyword",
+              "interpolation-punctuation"
+            ],
+            "style": {
+              "color": "rgb(86, 156, 214)"
+            }
+          },
+          {
+            "types": [
+              "number",
+              "inserted"
+            ],
+            "style": {
+              "color": "rgb(181, 206, 168)"
+            }
+          },
+          {
+            "types": [
+              "constant"
+            ],
+            "style": {
+              "color": "rgb(100, 102, 149)"
+            }
+          },
+          {
+            "types": [
+              "attr-name",
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(156, 220, 254)"
+            }
+          },
+          {
+            "types": [
+              "deleted",
               "string",
-              "attr-value"
+              "attr-value",
+              "template-punctuation"
             ],
             "style": {
-              "color": "#e3116c"
+              "color": "rgb(206, 145, 120)"
+            }
+          },
+          {
+            "types": [
+              "selector"
+            ],
+            "style": {
+              "color": "rgb(215, 186, 125)"
+            }
+          },
+          {
+            "types": [
+              "tag"
+            ],
+            "style": {
+              "color": "rgb(78, 201, 176)"
+            }
+          },
+          {
+            "types": [
+              "tag"
+            ],
+            "languages": [
+              "markup"
+            ],
+            "style": {
+              "color": "rgb(86, 156, 214)"
             }
           },
           {
@@ -106,63 +168,90 @@ export default {
               "operator"
             ],
             "style": {
-              "color": "#393A34"
+              "color": "rgb(212, 212, 212)"
             }
           },
           {
             "types": [
-              "entity",
-              "url",
-              "symbol",
-              "number",
-              "boolean",
-              "variable",
-              "constant",
-              "property",
-              "regex",
-              "inserted"
+              "punctuation"
+            ],
+            "languages": [
+              "markup"
             ],
             "style": {
-              "color": "#36acaa"
+              "color": "#808080"
             }
           },
           {
             "types": [
-              "atrule",
-              "keyword",
-              "attr-name",
-              "selector"
+              "function"
             ],
             "style": {
-              "color": "#00a4db"
+              "color": "rgb(220, 220, 170)"
             }
           },
           {
             "types": [
-              "function",
-              "deleted",
-              "tag"
+              "class-name"
             ],
             "style": {
-              "color": "#d73a49"
+              "color": "rgb(78, 201, 176)"
             }
           },
           {
             "types": [
-              "function-variable"
+              "char"
             ],
             "style": {
-              "color": "#6f42c1"
+              "color": "rgb(209, 105, 105)"
             }
           },
           {
             "types": [
-              "tag",
-              "selector",
+              "comment"
+            ],
+            "style": {
+              "color": "#727475"
+            }
+          },
+          {
+            "types": [
+              "string"
+            ],
+            "style": {
+              "color": "#00a67d"
+            }
+          },
+          {
+            "types": [
+              "function"
+            ],
+            "style": {
+              "color": "#2e95d3"
+            }
+          },
+          {
+            "types": [
               "keyword"
             ],
             "style": {
-              "color": "#00009f"
+              "color": "#2e95d3"
+            }
+          },
+          {
+            "types": [
+              "number"
+            ],
+            "style": {
+              "color": "#df3079"
+            }
+          },
+          {
+            "types": [
+              "variable"
+            ],
+            "style": {
+              "color": "#e9950c"
             }
           }
         ]
@@ -376,7 +465,7 @@ export default {
     "colorMode": {
       "defaultMode": "dark",
       "disableSwitch": true,
-      "respectPrefersColorScheme": true
+      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",
