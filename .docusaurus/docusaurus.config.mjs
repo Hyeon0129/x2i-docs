@@ -376,7 +376,7 @@ export default {
     "colorMode": {
       "defaultMode": "dark",
       "disableSwitch": true,
-      "respectPrefersColorScheme": true
+      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",
