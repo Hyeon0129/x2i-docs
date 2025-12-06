@@ -6,7 +6,6 @@ keywords: [Tenstorrent, YOLOv4, TT-Metal, object detection, NPU]
 hide_table_of_contents: true
 ---
 
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import { useState } from 'react';

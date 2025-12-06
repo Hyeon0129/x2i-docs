@@ -5,7 +5,7 @@
   "source": "@site/docs/tenstorrent-sdks/tt-metal/tt-metal-overview.md",
   "sourceDirName": "tenstorrent-sdks/tt-metal",
   "slug": "/tenstorrent-sdks/tt-metal/tt-metal-overview",
-  "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-overview",
+  "permalink": "/docs/tenstorrent-sdks/tt-metal/tt-metal-overview",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Installation Prerequisites",
-    "permalink": "/ko/docs/gettingstarted/installation_guide"
+    "permalink": "/docs/gettingstarted/installation_guide"
   },
   "next": {
     "title": "Installing - TT-Metal",
-    "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-installation"
+    "permalink": "/docs/tenstorrent-sdks/tt-metal/tt-metal-installation"
   }
 }

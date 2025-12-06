@@ -5,7 +5,7 @@
   "source": "@site/docs/tenstorrent-sdks/tt-forge/tt-forge-overview.md",
   "sourceDirName": "tenstorrent-sdks/tt-forge",
   "slug": "/tenstorrent-sdks/tt-forge/tt-forge-overview",
-  "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-overview",
+  "permalink": "/docs/tenstorrent-sdks/tt-forge/tt-forge-overview",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Run Your First Model",
-    "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/run-your-first-model"
+    "permalink": "/docs/tenstorrent-sdks/tt-metal/run-your-first-model"
   },
   "next": {
     "title": "Installing - TT-Forge-fe",
-    "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-fe-installation"
+    "permalink": "/docs/tenstorrent-sdks/tt-forge/tt-forge-fe-installation"
   }
 }

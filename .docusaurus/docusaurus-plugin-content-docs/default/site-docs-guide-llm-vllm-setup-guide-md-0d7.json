@@ -5,7 +5,7 @@
   "source": "@site/docs/guide/llm/vllm_setup_guide.md",
   "sourceDirName": "guide/llm",
   "slug": "/guide/llm/vllm_setup_guide",
-  "permalink": "/ko/docs/guide/llm/vllm_setup_guide",
+  "permalink": "/docs/guide/llm/vllm_setup_guide",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,6 +19,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Overview",
-    "permalink": "/ko/docs/guide/llm/overview"
+    "permalink": "/docs/guide/llm/overview"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/docs/tenstorrent-sdks/tt-metal/tt-metal-installation.md",
   "sourceDirName": "tenstorrent-sdks/tt-metal",
   "slug": "/tenstorrent-sdks/tt-metal/tt-metal-installation",
-  "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-installation",
+  "permalink": "/docs/tenstorrent-sdks/tt-metal/tt-metal-installation",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -27,10 +27,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "TT-Metal Overview",
-    "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-overview"
+    "permalink": "/docs/tenstorrent-sdks/tt-metal/tt-metal-overview"
   },
   "next": {
     "title": "Run Your First Model",
-    "permalink": "/ko/docs/tenstorrent-sdks/tt-metal/run-your-first-model"
+    "permalink": "/docs/tenstorrent-sdks/tt-metal/run-your-first-model"
   }
 }

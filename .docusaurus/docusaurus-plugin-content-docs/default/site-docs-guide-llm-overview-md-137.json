@@ -5,7 +5,7 @@
   "source": "@site/docs/guide/llm/overview.md",
   "sourceDirName": "guide/llm",
   "slug": "/guide/llm/overview",
-  "permalink": "/ko/docs/guide/llm/overview",
+  "permalink": "/docs/guide/llm/overview",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Run Your First Model",
-    "permalink": "/ko/docs/tenstorrent-sdks/tt-forge/run-your-first-model"
+    "permalink": "/docs/tenstorrent-sdks/tt-forge/run-your-first-model"
   },
   "next": {
     "title": "vLLM Setup Guide",
-    "permalink": "/ko/docs/guide/llm/vllm_setup_guide"
+    "permalink": "/docs/guide/llm/vllm_setup_guide"
   }
 }

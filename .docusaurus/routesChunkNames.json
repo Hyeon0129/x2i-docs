@@ -1,293 +1,332 @@
 {
-  "/ko/blog-3c0": {
-    "__comp": "a6aa9e1f",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "a2b5a152"
-  },
-  "/ko/blog/archive-dfa": {
-    "__comp": "9e4087bc",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "__props": "6aa772c3"
-  },
-  "/ko/blog/authors-917": {
-    "__comp": "621db11d",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "3e014d13"
-  },
-  "/ko/blog/authors/all-sebastien-lorber-articles-c80": {
-    "__comp": "33fc5bb8",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "sidebar": "814f3328",
-    "__props": "94ab434c"
-  },
-  "/ko/blog/authors/yangshun-71d": {
-    "__comp": "33fc5bb8",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "sidebar": "814f3328",
-    "__props": "15270007"
-  },
-  "/ko/blog/first-blog-post-508": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "e273c56f"
-  },
-  "/ko/blog/long-blog-post-d55": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "73664a40"
-  },
-  "/ko/blog/mdx-blog-post-e1b": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "59362658"
-  },
-  "/ko/blog/tags-940": {
-    "__comp": "01a85c17",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "abc6f1e9"
-  },
-  "/ko/blog/tags/docusaurus-25d": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "b95a68e6"
-  },
-  "/ko/blog/tags/facebook-ec9": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      }
-    ],
-    "__props": "b59b70fb"
-  },
-  "/ko/blog/tags/hello-d6d": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      }
-    ],
-    "__props": "73034f33"
-  },
-  "/ko/blog/tags/hola-688": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "e33562e6"
-  },
-  "/ko/blog/welcome-209": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "d9f32620"
-  },
-  "/ko/markdown-page-df2": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "393be207"
-  },
-  "/ko/docs-29f": {
-    "__comp": "5e95c892",
-    "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/ko/docs-bf7": {
-    "__comp": "a7bd4aaa",
-    "__props": "3fb08f48"
-  },
-  "/ko/docs-9f0": {
-    "__comp": "a94703ab"
-  },
-  "/ko/docs/gettingstarted/installation_guide-7a4": {
-    "__comp": "17896441",
-    "content": "baab5422"
-  },
-  "/ko/docs/gettingstarted/system-requirements-709": {
-    "__comp": "17896441",
-    "content": "0971abab"
-  },
-  "/ko/docs/guide/llm/overview-929": {
-    "__comp": "17896441",
-    "content": "1375e106"
-  },
-  "/ko/docs/guide/llm/vllm_setup_guide-9e9": {
-    "__comp": "17896441",
-    "content": "0d7952ce"
-  },
-  "/ko/docs/overview/model_updates-67b": {
-    "__comp": "17896441",
-    "content": "89fa2ae5"
-  },
-  "/ko/docs/overview/supportedmodels-f19": {
-    "__comp": "17896441",
-    "content": "bcd71e44"
-  },
-  "/ko/docs/overview/tenstorrent_overview-6f4": {
-    "__comp": "17896441",
-    "content": "7ed9b21d"
-  },
-  "/ko/docs/overview/tenstorrent_softwarestack-be1": {
-    "__comp": "17896441",
-    "content": "1f648050"
-  },
-  "/ko/docs/tenstorrent-sdks/tt-forge/run-your-first-model-c95": {
-    "__comp": "17896441",
-    "content": "e80caefe"
-  },
-  "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-fe-installation-00e": {
-    "__comp": "17896441",
-    "content": "af7911a6"
-  },
-  "/ko/docs/tenstorrent-sdks/tt-forge/tt-forge-overview-346": {
-    "__comp": "17896441",
-    "content": "81d9cc4c"
-  },
-  "/ko/docs/tenstorrent-sdks/tt-forge/tt-torch-installation-9ef": {
-    "__comp": "17896441",
-    "content": "17190541"
-  },
-  "/ko/docs/tenstorrent-sdks/tt-metal/-73a": {
-    "__comp": "17896441",
-    "content": "f219e2e8"
-  },
-  "/ko/docs/tenstorrent-sdks/tt-metal/run-your-first-model-e5e": {
-    "__comp": "17896441",
-    "content": "cd86ca04"
-  },
-  "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-installation-66e": {
-    "__comp": "17896441",
-    "content": "c19357ef"
-  },
-  "/ko/docs/tenstorrent-sdks/tt-metal/tt-metal-overview-4ab": {
-    "__comp": "17896441",
-    "content": "e5066690"
-  },
-  "/ko/-25c": {
-    "__comp": "c4f5d8e4",
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "config": "5e9f5e1a"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/blog-b2f": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blogc-15-573"
+  },
+  "/blog/archive-182": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "__props": "__props---blog-archivef-81-229"
+  },
+  "/blog/authors-0b7": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authorsef-8-44f"
+  },
+  "/blog/authors/all-sebastien-lorber-articles-4a1": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authors-all-sebastien-lorber-articlesc-9-c-639"
+  },
+  "/blog/authors/yangshun-a68": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authors-yangshun-1-de-d0c"
+  },
+  "/blog/first-blog-post-89a": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-first-blog-poste-27-4a1"
+  },
+  "/blog/long-blog-post-9ad": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-long-blog-post-736-bc7"
+  },
+  "/blog/mdx-blog-post-e9f": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-mdx-blog-post-593-37b"
+  },
+  "/blog/tags-287": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-tags-3-a-2-fa2"
+  },
+  "/blog/tags/docusaurus-704": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blog-tags-docusaurus-321-832"
+  },
+  "/blog/tags/facebook-858": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      }
+    ],
+    "__props": "__props---blog-tags-facebooke-5-a-514"
+  },
+  "/blog/tags/hello-299": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blog-871-381"
+      }
+    ],
+    "__props": "__props---blog-tags-hellof-82-2fd"
+  },
+  "/blog/tags/hola-00d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blog-tags-hola-5-e-9-9a3"
+  },
+  "/blog/welcome-d2b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-welcomed-9-f-ffb"
+  },
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/docs-89d": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-763": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-168": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/gettingstarted/installation_guide-476": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-gettingstarted-installation-guidebaa-c8d"
+  },
+  "/docs/gettingstarted/system-requirements-883": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-gettingstarted-system-requirements-097-a70"
+  },
+  "/docs/guide/llm/overview-166": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-guide-llm-overview-137-d37"
+  },
+  "/docs/guide/llm/vllm_setup_guide-19d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-guide-llm-vllm-setup-guide-0-d-7-bfd"
+  },
+  "/docs/overview/model_updates-532": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-overview-model-updates-89-f-f06"
+  },
+  "/docs/overview/supportedmodels-30b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-overview-supportedmodelsbcd-40a"
+  },
+  "/docs/overview/tenstorrent_overview-15e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-overview-tenstorrent-overview-7-ed-544"
+  },
+  "/docs/overview/tenstorrent_softwarestack-380": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-overview-tenstorrent-softwarestack-1-f-6-ba2"
+  },
+  "/docs/tenstorrent-sdks/tt-forge/run-your-first-model-06d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tenstorrent-sdks-tt-forge-run-your-first-modele-80-368"
+  },
+  "/docs/tenstorrent-sdks/tt-forge/tt-forge-fe-installation-3e9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tenstorrent-sdks-tt-forge-tt-forge-fe-installationaf-7-0da"
+  },
+  "/docs/tenstorrent-sdks/tt-forge/tt-forge-overview-5ca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tenstorrent-sdks-tt-forge-tt-forge-overview-81-d-87d"
+  },
+  "/docs/tenstorrent-sdks/tt-forge/tt-torch-installation-0ef": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tenstorrent-sdks-tt-forge-tt-torch-installation-171-76a"
+  },
+  "/docs/tenstorrent-sdks/tt-metal/run-your-first-model-e00": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tenstorrent-sdks-tt-metal-run-your-first-modelcd-8-526"
+  },
+  "/docs/tenstorrent-sdks/tt-metal/tt-metal-installation-93e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tenstorrent-sdks-tt-metal-tt-metal-installationc-19-aee"
+  },
+  "/docs/tenstorrent-sdks/tt-metal/tt-metal-overview-f05": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tenstorrent-sdks-tt-metal-tt-metal-overviewe-50-014"
+  },
+  "/-2e1": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "config": "config---5-e-9-4f3"
   }
 }

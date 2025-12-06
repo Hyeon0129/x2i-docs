@@ -5,7 +5,7 @@
   "source": "@site/docs/overview/tenstorrent_softwarestack.mdx",
   "sourceDirName": "overview",
   "slug": "/overview/tenstorrent_softwarestack",
-  "permalink": "/ko/docs/overview/tenstorrent_softwarestack",
+  "permalink": "/docs/overview/tenstorrent_softwarestack",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Tenstorrent NPU",
-    "permalink": "/ko/docs/overview/tenstorrent_overview"
+    "permalink": "/docs/overview/tenstorrent_overview"
   },
   "next": {
     "title": "Supported Models",
-    "permalink": "/ko/docs/overview/supportedmodels"
+    "permalink": "/docs/overview/supportedmodels"
   }
 }
