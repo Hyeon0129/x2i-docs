@@ -12,12 +12,12 @@ const customPrism = require('./src/theme/customPrism'); // 경로가 맞는지 �
 
 
 const config = {
-  title: 'Pyron',
-  tagline: 'Dinosaurs are cool',
+  title: 'Pyron - Tenstorrent NPU & SDK Documentation',
+  tagline: 'High-performance deep learning inference and AI workloads with Tenstorrent NPU and SDKs.',
   favicon: 'img/x2i_logo.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.pyron.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
